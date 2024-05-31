@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.page1 {
+    margin: auto;
+    width: 70%;
+    background-color: rgba(225, 225, 225, 0.5);
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.page2 {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(225, 225, 225, 0.5);
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1.5px solid white;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover a {
+    color: black;
+}
