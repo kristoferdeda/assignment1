@@ -10,7 +10,7 @@ body {
 
 .list {
     margin: auto;
-    width: 70%;
+    width: 50%;
     background-color: rgba(225, 225, 225, 0.5);
     border: 2px solid white;
     border-radius: 20px;
@@ -35,7 +35,17 @@ button {
     flex-direction: column;
     margin: 20px 20px 0px 20px;
 }
+
 button:hover {
     background-color: white;
     color: black;
+}
+
+input {
+    width: 100%;
+}
+
+#list {
+    padding-right: 30px;
+
 }
